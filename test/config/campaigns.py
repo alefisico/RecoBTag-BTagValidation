@@ -76,8 +76,8 @@ for name in samples_data + samples_qcd:
             ,'triggerSelection'          : string( ','.join(['HLT_BTagMu_AK8Jet300_Mu5' + "'", "'" + 'HLT_BTagMu_Jet300_Mu5']))
             #,'FilePUDistMC'            : string( os.path.join( paths.main, 'aux', 'PUDistMC_2016_25ns_PUDistMC_2016_25ns_Moriond17MC_PoissonOOTPU.root'))
             #,'FilePUDistData'            : string( os.path.join( paths.main, 'aux', 'RunII2016BCDEFGH_PUXsec69200nb.root'))
-            ,'FilePUDistMC'            : string( os.path.join( paths.main, 'aux', 'PUDistMC_2018_25ns_WinterMC_PUScenarioV1_PoissonOOTPU.root'))
-            ,'FilePUDistData'            : string( os.path.join( paths.main, 'aux', 'RunII2018BCDEF_17Nov2018_25ns_PUXsec69200nb.root'))
+            ,'FilePUDistMC'            : string( os.path.join( paths.main, 'aux', 'PUDistMC_2018_25ns_JuneProjectionFull18_PoissonOOTPU.root'))
+            ,'FilePUDistData'            : string( os.path.join( paths.main, 'aux', 'RunII2018ABCD_25ns_PUXsec69200nb.root'))
             ,'produceDeepDoubleXCommissioning' : True
             }
 

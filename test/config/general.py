@@ -3,10 +3,10 @@
 
 # campaigns       = ['caseA', 'caseB','caseC','caseD']
 campaigns       = [
-                    'Run2017_QCDMuEnriched',
+                    'Run2018Comm',
 					]
 
-btagAna_groups  = [ 'DoubleBCommissioning' ]
+btagAna_groups  = [ 'EventInfo', 'Devdatta', 'DoubleBCommissioning' ]
 
 
 # Choose True if you want to overwrite already existing files/results
@@ -32,7 +32,7 @@ number_of_jobs  = -1
 # Number of files per job
 number_of_files = 20
 # Send jobs switch
-send_jobs       = True
+send_jobs       = False
 # lxbatch options
 queue_lxbatch   = 'cmscaf1nh' # LXBatch queue (choose among cmst3 8nm 1nh 8nh 1nd 1nw)
 # batch templates
